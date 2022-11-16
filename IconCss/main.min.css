@@ -25,11 +25,11 @@ button,label{
 .icon-wrap,.windows,.windows-header,body,html{
     overflow:hidden
 }
-@font-face{
+/* @font-face{
     font-family:px_sans_nouveaux;
     src:url(fonts/px_sans_nouveaux/px_sans_nouveaux.eot);
     src:url(fonts/px_sans_nouveaux/px_sans_nouveaux.eot?#iefix) format('embedded-opentype'),url(fonts/px_sans_nouveaux/px_sans_nouveaux.woff2) format('woff2'),url(fonts/px_sans_nouveaux/px_sans_nouveaux.woff) format('woff'),url(fonts/px_sans_nouveaux/px_sans_nouveaux.ttf) format('truetype')
-}
+} */
 -webkit-scrollbar-thumb{
     background-color:silver;
     border-left:ridge 2px #fff;
@@ -410,7 +410,7 @@ label{
     font-weight:400;
     color:#000
 }
-.start-bar-window{
+/* .start-bar-window{
     float:left;
     padding:0 10px 0 6px;
     border-top:1px solid #000;
@@ -418,7 +418,7 @@ label{
     box-shadow:inset 1px 1px grey;
     background-image:url(data:image/png;
     base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAG0lEQVQYV2M8cODAf3t7ewbG/////z948CADAFuqCj64BtLKAAAAAElFTkSuQmCC)
-}
+} */
 .made-by{
     float:right;
     text-align:right;
