@@ -1,11 +1,4 @@
-body,html{
-    height:100%;
-    overflow:hidden
-}
-*,:after,:before,body,html{
-    padding:0;
-    margin:0
-}
+/* 
 .start-button-wrapper,button{
     border:0;
     cursor:pointer
@@ -15,10 +8,10 @@ a,input:focus{
 }
 button,label{
     cursor:pointer
-}
-.windows,body,input{
+} */
+/* .windows,body,input{
     font-size:12px
-}
+} */
 .windows-button,input{
     -webkit-appearance:none
 }
@@ -37,14 +30,14 @@ button,label{
     border-right:ridge 2px gray;
     border-bottom:ridge 2px gray
 }
-html{
+/* html{
     box-sizing:border-box
-}
-*,:after,:before{
+} */
+/* *,:after,:before{
     box-sizing:inherit;
     box-sizing:border-box
-}
-body{
+} */
+/* body{
     line-height:1.5;
     letter-spacing:-.025em;
     text-rendering:optimizeLegibility;
@@ -56,7 +49,7 @@ body{
     transition:background-color 1s ease .5s,color 1s ease .5s;
     font-family:px_sans_nouveaux;
     background-color:teal
-}
+} */
 .form-content,.share,.share a,.windows-content{
     color:#000
 }
@@ -226,7 +219,7 @@ label{
 }
 .icon-inner-container .icon-box span,.ui-icon span{
     text-align:center;
-    font-family:px_sans_nouveaux;
+/*     font-family:px_sans_nouveaux; */
     font-size:8px
 }
 .windows-button:active{
@@ -376,13 +369,13 @@ label{
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none
-}
+/* }
 .start-button{
     background-image:url(images/start-button.png);
     background-repeat:no-repeat;
     width:45px;
     height:14px
-}
+} */
 .start-button-wrapper{
     float:left;
     margin-left:2px;
@@ -400,7 +393,7 @@ label{
     margin-right:6px;
     color:#000
 }
-.made-by,.start-bar-window{
+/* .made-by,.start-bar-window{
     vertical-align:middle;
     height:22px;
     line-height:22px;
@@ -409,7 +402,7 @@ label{
     font-family:Arial;
     font-weight:400;
     color:#000
-}
+} */
 /* .start-bar-window{
     float:left;
     padding:0 10px 0 6px;
